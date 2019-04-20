@@ -1,0 +1,76 @@
+body{
+	background-color: #232323;
+	margin:0px;
+	font-family: "Avenir";
+}
+
+.square{
+	width: 30%;
+	background: purple;
+	padding-top: 30%;                           /*padding beacause we have to fill null with space also can be padding bottom*/
+	float: left;
+	margin:1.66%;
+	transition: background 0.6s;
+	-webkit-transition:background 2.0s;         	    /*for safari web browser if transition not support*/
+	-moz-transition:background   2.0s;       			/*for safari web browser if transition not support*/
+	border-radius: 15%;
+
+}
+
+#container{
+	max-width: 600px;                                       /*to make small boxes*/
+	margin: 20px auto;								  		/*to make it center*/
+}
+
+h1{
+	color:white;
+	background:steelblue;
+	text-align: center;
+	margin:0px;
+	font-weight: normal;
+	line-height: 1.1;
+	text-transform: uppercase;
+	padding:20px 0;
+}
+
+#colorDisplay{
+	font-size: 200%
+
+}
+
+#messageDisplay{
+	display: inline-block;
+	width: 20%;
+	font-family: sans-serif;
+}
+
+#strip{
+	height: 30px;
+	background: white;                       /*Here make strip center and make some height*/
+    text-align: center;
+    color: black;
+}
+
+.selected{
+	color:white;
+	background:steelblue;
+}
+
+button{
+	border:none;
+	background:none;
+	height: 100%;
+	font-weight: 700;
+	font-size: inherit;
+	color: steelblue;
+	letter-spacing: 1px;
+	transition: all 2.0s;                  	/*to make fade*/
+	-webkit-transition:all 2.0s;            /*for safari web browser if transition not support*/
+	-moz-transition:all 2.0s;       		/*for safari web browser if transition not support*/    
+	outline: none;                          /* to make outliner of button disappear*/   
+}
+
+button:hover{
+	color:white;
+	background:steelblue;
+}
